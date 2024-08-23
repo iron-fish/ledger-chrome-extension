@@ -8,3 +8,19 @@ browser.runtime.onMessage.addListener((request: { popupMounted: boolean }) => {
         console.log("backgroundPage notified that Popup.tsx has mounted.");
     }
 });
+
+
+// import TransportWebHid from '@ledgerhq/hw-transport-webhid';
+
+// console.log('This is the background page.');
+
+// const initLedger = async () => {
+//   try {
+//     const transport = await TransportWebHid.create(3000, 3000);
+//     console.log('Ledger transport created:', transport);
+//     return { success: true, transport };
+//   } catch (error) {
+//     console.error('Error initializing Ledger:', error);
+//     return { success: false, error: error.message };
+//   }
+// };
