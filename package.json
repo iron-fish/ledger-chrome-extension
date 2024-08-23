@@ -73,6 +73,11 @@
         "webpack-merge": "^5.8.0"
     },
     "dependencies": {
+        "@ledgerhq/devices": "^8.4.2",
+        "@ledgerhq/hw-transport-webhid": "^6.29.2",
+        "@ledgerhq/logs": "^6.12.0",
+        "@zondax/ledger-ironfish": "^0.1.2",
+        "buffer": "^6.0.3",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
         "webextension-polyfill": "^0.9.0"
